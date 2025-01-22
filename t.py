@@ -49,4 +49,11 @@ def fb(n):
             print("FIZZBUZZ")
 res=fb(1)   
 print(res)
-
+#7
+def div():
+    n=int(input("enter a number:"))
+    print(n)
+    for i in range(1,n+1):
+        if n%i==0:
+            print(i)
+div()
